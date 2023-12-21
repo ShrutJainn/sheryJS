@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+#main {
+  width: 100%;
+}
+
+.nav {
+  padding: 3vw 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10vw;
+}
+.navLeft {
+  display: flex;
+  gap: 7vw;
+}
+.navLeft a {
+  text-decoration: none;
+  color: black;
+}
+.navRight a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15vw;
+  padding: 0 10vw;
+}
+#sustain {
+  width: 10vw;
+}
+#sustain p {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  opacity: 0.5;
+  margin: 10px 0;
+}
+#sustain #susImageWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 15vw;
+}
+#susImageWrapper img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+#ephemeral {
+  width: 30vw;
+  min-height: 42vw;
+  position: relative;
+}
+#ephemeral h1 {
+  letter-spacing: -0.4vw;
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 1;
+}
+
+#ephemeral #headings {
+  position: absolute;
+  top: -22%;
+  left: -20%;
+}
+#ephemeral img {
+  width: 100%;
+  height: 100%;
+}
+#ephemeral p {
+  width: 40%;
+  font-size: 1.3vw;
+  letter-spacing: -0.1vw;
+}
+#circleVisit {
+  border-radius: 50%;
+  border: 1px solid #5e5e5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3vw;
+  width: 3vw;
+}
+#circleVisit i {
+  color: #5e5e5e;
+}
+#visit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#visit h3 {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+#motive {
+  padding: 3vw 10vw;
+  display: flex;
+  align-items: center;
+}
+#motive p {
+  width: 30vw;
+}
+#motive span img {
+  border-radius: 34px;
+  height: 2vw;
+  width: 2vw;
+  object-fit: cover;
+  margin: 0;
+}
+#pictures {
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+  margin-top: 8vw;
+}
+#firstPic {
+  width: 17vw;
+}
+#firstPic #picImg {
+  width: 100%;
+  height: 24vw;
+  margin-bottom: 1vw;
+  background-color: red;
+}
+#firstPic h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+#firstPic p {
+  opacity: 0.8;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#picImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#banner {
+  width: 100%;
+  margin-top: 8vw;
+}
+#bannerImg {
+  width: 65%;
+  height: 60vh;
+}
+#bannerImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 70%;
+}
+#banner {
+  display: flex;
+  align-items: center;
+}
+#bannerText {
+  width: 35%;
+  padding: 0 3vw;
+}
+#bannerText h1 {
+  font-size: 2.4vw;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.1vw;
+}
+#bannerText p {
+  margin-top: 20px;
+  width: 60%;
+}
+#future {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+#future video {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+#fText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+  background-color: #fff;
+  padding: 1vw 2vw;
+  border-radius: 10px;
+}
+#fText button {
+  padding: 0.8vw 1.7vw;
+  font-size: 0.6vw;
+  font-weight: 700;
+  border-radius: 100px;
+  border: 1px solid #c6c6c6;
+  background-color: white;
+  color: #5e5e5e;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
